@@ -1,0 +1,21 @@
+package fr.upmc.pc2r.bnr.protocole.test;
+
+import fr.upmc.pc2r.bnr.controler.ClientController;
+
+public class TestMain {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		//ClientController client = new ClientController("127.0.0.1");
+		//ClientController client = new ClientController("134.157.246.7");
+		ClientController client = new ClientController("192.168.1.66","2012");
+		//ClientController client = new ClientController("80.119.68.89");
+		//ClientController client = new ClientController("192.168.19.5");
+		ClientController.setClientController(client);
+		
+	}
+
+}
