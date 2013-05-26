@@ -1,4 +1,4 @@
-BatailleNavale
+﻿BatailleNavale
 ==============
 
-Ce mini jeu a été réalisé dans le cadre d'un projet réparti client/serveur dans deux langages différents (C/Java).
+This mini game was carried out for a distributed client server project in two differents langages (C / Java).
